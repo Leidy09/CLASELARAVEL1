@@ -17,7 +17,9 @@ Route::get('/', function () {
 Route::get('/menu', function () {
     return view('layouts.menu');
 });
-
+Route::get('/blusas', function () {
+    return view('layouts.blusas');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -20,9 +20,11 @@ class CreateClientesTable extends Migration
             $table->integer('phone');
             $table->string('adress');
             $table->timestamps();
-
+            
+           
             
         });
+        
         $table->foreign('id_user')->references('id')->on('users');
     }
 

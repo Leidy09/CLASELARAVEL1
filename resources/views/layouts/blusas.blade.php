@@ -7,6 +7,6 @@
     <title>LRSTORE</title>
 </head>
 <body>
-    
+  <h1>LRSTORE</h1>
 </body>
 </html>
